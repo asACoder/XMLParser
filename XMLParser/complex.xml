@@ -1,0 +1,36 @@
+<root>
+    <OutArray target="test">
+        <school>
+            <name range = "1">清华大学</name>
+            <address>北京</address>
+            <InArray>
+                <student>
+                    <name no="123">abc</name>
+                    <age>21</age>
+                </student>
+                <student>
+                    <name no="234">hello</name>
+                    <age>22</age>
+                </student>
+                <student>
+                    <name>world</name>
+                    <age>23</age>
+                </student>
+            </InArray>
+        </school>
+        <school>
+            <name range = "2">浙江大学</name>
+            <address>浙江</address>
+            <InArray>
+                <student no="1">
+                    <name>lhc</name>
+                    <age>21</age>
+                </student>
+                <student no="2">
+                    <name>fsj</name>
+                    <age>22</age>
+                </student>
+            </InArray>
+        </school>
+    </OutArray>
+</root>
